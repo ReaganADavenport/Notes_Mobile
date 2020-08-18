@@ -13,6 +13,8 @@
 		680FD85C24EC50CD00DE8868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680FD85A24EC50CD00DE8868 /* Main.storyboard */; };
 		680FD85E24EC50D600DE8868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680FD85D24EC50D600DE8868 /* Assets.xcassets */; };
 		680FD86124EC50D600DE8868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680FD85F24EC50D600DE8868 /* LaunchScreen.storyboard */; };
+		680FD86924EC512100DE8868 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FD86824EC512100DE8868 /* NoteViewController.swift */; };
+		680FD86B24EC514100DE8868 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FD86A24EC514100DE8868 /* EntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		680FD85D24EC50D600DE8868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		680FD86024EC50D600DE8868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		680FD86224EC50D600DE8868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680FD86824EC512100DE8868 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		680FD86A24EC514100DE8868 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				680FD85D24EC50D600DE8868 /* Assets.xcassets */,
 				680FD85F24EC50D600DE8868 /* LaunchScreen.storyboard */,
 				680FD86224EC50D600DE8868 /* Info.plist */,
+				680FD86824EC512100DE8868 /* NoteViewController.swift */,
+				680FD86A24EC514100DE8868 /* EntryViewController.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680FD86924EC512100DE8868 /* NoteViewController.swift in Sources */,
+				680FD86B24EC514100DE8868 /* EntryViewController.swift in Sources */,
 				680FD85924EC50CD00DE8868 /* ViewController.swift in Sources */,
 				680FD85524EC50CD00DE8868 /* AppDelegate.swift in Sources */,
 				680FD85724EC50CD00DE8868 /* SceneDelegate.swift in Sources */,
